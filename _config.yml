@@ -170,6 +170,9 @@ exclude:
   - _includes/latest_posts.liquid
   - _includes/related_posts.liquid
   - _layouts/archive.liquid
+  - _bibliography
+  - _pages/publications.md
+  - _pages/dropdown.md
   - _plugins/external-posts.rb
   - CONTRIBUTING.md
   - CUSTOMIZE.md
