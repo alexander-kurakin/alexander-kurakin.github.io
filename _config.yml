@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Alexander
+first_name: AlexanderZ
 middle_name: 
-last_name: Kurakin
+last_name: KurakinZ
 contact_note: >
   Feel free to reach me out
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -81,15 +81,6 @@ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: Alexander Kurakin # blog_name will be displayed in your blog page
-blog_description: game development journey
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
@@ -174,6 +165,12 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - _posts/
+  - _pages/blog.md
+  - _includes/latest_posts.liquid
+  - _includes/related_posts.liquid
+  - _layouts/archive.liquid
+  - _plugins/external-posts.rb
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -198,7 +195,6 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -241,23 +237,6 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -308,7 +287,6 @@ filtered_bibtex_keywords:
     award,
     award_name,
     bibtex_show,
-    blog,
     code,
     google_scholar_id,
     html,
