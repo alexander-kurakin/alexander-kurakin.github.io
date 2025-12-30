@@ -6,7 +6,7 @@ description: A glance into my projects
 nav: true
 nav_order: 1
 display_categories: [Current / Future, Practical R&D, Mid career, Foundations]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
