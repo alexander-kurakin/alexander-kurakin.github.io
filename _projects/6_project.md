@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: 5yearsApp2D
+description: 2018<br>A mobile-friendly reflective diary app. Long-term personal retrospection through the 5 year intervals.
+img: assets/img/WIP.png
+importance: 1
+category: Mid career
 ---
 
 Every project has a beautiful feature showcase page.

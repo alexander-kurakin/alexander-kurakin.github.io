@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Gameplay Systems & Architecture
+description: 2025-mid 2026.<br>A series of progressively more complex gameplay systems focused on scalable architecture, decoupling, and practical implementation of design patterns.
+img: assets/img/custom_image.png
 importance: 2
-category: work
+category: Current / Future
 giscus_comments: true
 ---
 

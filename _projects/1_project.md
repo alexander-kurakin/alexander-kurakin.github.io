@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Archero-clone Project
+description: Early 2026.<br>Final project for the advanced C# and architecture course. Skills, enemies, progression, and systemic combat to be included.
+img: assets/img/WIP.png
 importance: 1
-category: work
-related_publications: true
+category: Current / Future
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.

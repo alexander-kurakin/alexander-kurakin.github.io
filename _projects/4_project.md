@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Applied prototypes and Tools 
+description: 2019-2024<br>Original Unity prototypes and tools focused on interaction, UX, asset integration, and small gameplay loops.
+img: assets/img/WIP.png
+importance: 1
+category: Practical R&D
 ---
 
 Every project has a beautiful feature showcase page.

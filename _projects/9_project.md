@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: Cpt. Jones
+description: 2001<br>An early 2D platformer game focused on classic arcade mechanics and linear level progression.
+img: assets/img/WIP.png
+importance: 2
+category: Foundations
 ---
 
 Every project has a beautiful feature showcase page.

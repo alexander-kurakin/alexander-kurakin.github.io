@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Structured Learning & Engine Mastery
+description: 2018–2022<br>Structured learning through faithful reproduction of classic mechanics and gameplay loops.
+img: assets/img/WIP.png
+importance: 2
+category: Practical R&D
 ---
 
 Every project has a beautiful feature showcase page.
