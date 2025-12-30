@@ -5,7 +5,6 @@ description: 2025-mid 2026.<br>A series of progressively more complex gameplay s
 img: assets/img/custom_image.png
 importance: 2
 category: Current / Future
-giscus_comments: true
 ---
 
 
@@ -14,8 +13,8 @@ Unity gameplay prototyping
 
 * Scene composition, input, rigidbody-based movement, score.
 * Materials, textures, FBX models, basic animations, particle effects, trails.
-* Vector math, character-controller movement, Quaternions and rotation. "Don't forget the batteries" game.
-* Verson control, physics, colliders, rigidbody. Classic phyical "Rolling ball" game.
+* Vector math, character-controller movement, Quaternions and rotation.
+* Verson control, physics, colliders, rigidbody.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -26,16 +25,16 @@ Unity gameplay prototyping
     </div>
 </div>
 <div class="caption">
-    Left - Advanced scene composition. Right - "Flappy ball" game.
+    Left - scene composition practice. Right - "Flappy ball" game.
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe width="420" height="225" src="https://www.youtube.com/embed/tGxst2KJQdQ?si=ykBWkw1sXchZBHpo&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+        <iframe width="420" height="225" src="https://www.youtube.com/embed/TcwkYWZV5VI?si=sReVgxAoICugQS5q&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>    
     <div class="col-sm mt-3 mt-md-0">
         <iframe width="420" height="225" src="https://www.youtube.com/embed/tGxst2KJQdQ?si=ykBWkw1sXchZBHpo&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>    
+    </div>
 </div>
 <div class="caption">
     Left - "Don't forget the batteries" game. Right - "Rolling ball" game.
