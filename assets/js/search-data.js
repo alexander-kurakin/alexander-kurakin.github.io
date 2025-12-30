@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A glance into my projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -39,49 +39,49 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-archero-clone-project",
+          title: 'Archero-clone Project',
+          description: "Early 2026.Final project for the advanced C# and architecture course. Skills, enemies, progression, and systemic combat to be included.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-gameplay-systems-amp-architecture",
+          title: 'Gameplay Systems &amp;amp; Architecture',
+          description: "2025-mid 2026.A series of progressively more complex gameplay systems focused on scalable architecture, decoupling, and practical implementation of design patterns.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-digital-hoarder",
+          title: 'Digital Hoarder',
+          description: "2024-Ongoing.Exploration-focused 3d action adventure",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-applied-prototypes-and-tools",
+          title: 'Applied prototypes and Tools',
+          description: "2019-2024Original Unity prototypes and tools focused on interaction, UX, asset integration, and small gameplay loops.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-structured-learning-amp-engine-mastery",
+          title: 'Structured Learning &amp;amp; Engine Mastery',
+          description: "2018–2022Structured learning through faithful reproduction of classic mechanics and gameplay loops.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-5yearsapp2d",
+          title: '5yearsApp2D',
+          description: "2018A mobile-friendly reflective diary app. Long-term personal retrospection through the 5 year intervals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-parking-master-low-poly",
+          title: 'Parking Master Low-Poly',
+          description: "2016-2018A casual low-poly clicker game focused on timing and spatial awarenes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-merlock",
+          title: 'Merlock',
+          description: "2004-2006A narrative-driven 2D platformer combining traversal challenges with environmental storytelling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-cpt-jones",
+          title: 'Cpt. Jones',
+          description: "2001An early 2D platformer game focused on classic arcade mechanics and linear level progression.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project.html";
             },},{
