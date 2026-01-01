@@ -1392,6 +1392,13 @@ ninja-keys::part(ninja-input-wrapper) {
   height: auto;
 }
 
+video {
+  width : 100%;
+  display: block;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
 
 // popover is used for annotation in bib.liquid
 .popover {

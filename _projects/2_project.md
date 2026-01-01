@@ -28,8 +28,6 @@ category: Current / Future
     Left - "Advanced wallet". Middle - "Advanced timer". Right - "Conditinal enemy destroying"
 </div>
 
-
-
 **Navigation and advanced VFX**<br>
 
 * AI-Navigation (NavMesh), Navmesh links traversal, custom NavMesh agent physics.
@@ -56,7 +54,11 @@ category: Current / Future
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/boat2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="ratio ratio=16x9">
+            <video autoplay loop muted playsinline>
+                <source src="{{ '/assets/img/boat2.mp4' | relative_url }}" type="video/mp4">
+            </video>
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/drag_and_drop_cinemachine.gif" title="example image" class="img-fluid rounded z-depth-1" %}
