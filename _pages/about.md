@@ -2,7 +2,7 @@
 layout: about
 title: bio
 permalink: /
-subtitle: Hobbyist game systems programmer and game designer
+subtitle: Game systems engineer | Gameplay programmer
 
 profile:
   align: right
@@ -21,10 +21,10 @@ announcements:
 
 ---
 
-Game development charmed me from the very precious moment I modified my first GTA3 vehicles using IMG Tool and number magic.
-This is dated back to the early 2000s.
-I have not stopped ever since, keeping this as my hobby while pursuing Software Engineering career.
+I design and build gameplay systems with a strong focus on clean architecture, reliability, reusability, and great player experience.
+My work emphasizes decoupled systems, clear data flow, and practical implementation of design patterns.
 
-I have shipped several games on Android, buried and restored several prototypes, designed and published software, and now simultaneously focused on building a rich tech demo stack with interesting mechanics as well as working on my latest game - Digital Hoarder.
+I have been making games in some form since the early 2000s - from modding my favourite games to developing end-to-end 2D platformer projects and publishing mobile games.
+Alongside this, I have spent over a decade as a professional software engineer, which strongly shapes how I approach system design, debugging, and iteration.
 
-Currently work as a Principal Database Engineer @Oracle
+Currently, I am developing a stack of scalable gameplay systems and technical demos, as well as my latest game project, Digital Hoarder, while working as a Principal Cloud Database Engineer at Oracle.

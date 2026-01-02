@@ -6,75 +6,48 @@ img: assets/img/digital_hoarder_preview.png
 importance: 3
 category: Current / Future
 ---
+A long-running flagship Unity project used to explore gameplay systems, architecture, and systemic design. 
+Digital Hoarder evolves alongside engine research and technical experimentation.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Showcase**<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ou-cgZ1FttM?si=iJVzoADVWwWspmAP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    First trailer - dreaming robot facing an unprecendent day
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Project snapshot**<br>
+* **Role:** Solo developer / Systems architect<br>
+* **Engine:** Unity (C#)<br>
+* **Status:** Active development / Live iteration<br>
+* **Focus:** Scalable architecture, systemic gameplay, tooling<br>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**High-level concept**<br>
+The player controls SIMbot, an administrator robot who has lost control of a collection of simulations called SyntyWorlds after a catastrophic system failure. 
+Each simulation represents a contained world with a disrupted key event that must be restored.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Rather than focusing on combat or destruction, the game emphasises exploration, problem-solving, helping NPCs, and restoring systemic balance. 
+The tone is intentionally optimistic and reflective; inspired by peaceful conflict resolution as in Dr. Who series and playful exploration like Toy Story 2.
 
-{% raw %}
+**Gameplay pillars**<br>
+* **Exploration and movement** third-person movement across stylised environments with traversal mechanics that expand as skills unlock.<br>
+* **Puzzles and mini-games** self-contained systems-driven puzzles integrated into the world narrative rather than isolated challenges.<br>
+* **Quests and dialogue** light narrative quests driven by NPC needs, branching dialogue, and world state changes.<br>
+* **Progression and skills** skill unlocking that introduces new interactions and mechanics instead of raw stat upgrades.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Simulation Worlds (Demo Scope)**<br>
+* **Earth: ancient egypt** restoring a disrupted pyramid construction process.<br>
+* **Earth: wild west** resolving systemic conflicts in a frontier settlement.<br>
+* **Mars: research station** diagnosing and fixing a cascading station failure.<br>
+Each world follows the same architectural principles but introduces unique mechanics, constraints, and systems.
 
-{% endraw %}
+**Test room**<br>
+A dedicated test environment allows unlocked abilities and mechanics to be evaluated in isolation from the player perspective.
+This space doubles to a developer as a regression-testing arena when refactoring systems or introducing new interactions.
+
+**Why "Digital Hoarder"?**<br>
+The original name reflects the idea of accumulating systems, mechanics and simulations over time. This metaphor translates to someone in the current timeline who hoards digital assets too ;)

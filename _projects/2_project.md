@@ -7,33 +7,40 @@ importance: 2
 category: Current / Future
 ---
 
-**2D specifics.Event-driven gameplay**<br>
+**Event-driven architecture and decoupled systems**<br>
 
-* 2D: Sprites, animatons, tile map, rules, palette, colliders, gravity, effectors, popular platformer mechanics.
-* Delegates, subscriptions, invocation list, Action/Func, callbacks, WaitUntil/WaitWhile.
-* Events, practical differences vs delegates, anonymous methods and lambda expressions.  
+* **Architecture** designed decoupled communication layers using C# events and delegates to minimize dependency between systems.<br>
+* **Asynchronous logic** implemented reactive gameplay loops and callback systems using advanced flow control (WaitUntil/WaitWhile/Invoke).<br>
+* **2D implementation** engineered robust 2D pipelines including Tilemap management, physics effectors, and sprite-based animation state machines.<br>
+
+Key implementation: **to be continued / WIP**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drag_and_drop_cinemachine.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/advanced_wallet.gif" title="pending image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drag_and_drop_cinemachine.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/advanced_timer.gif" title="pending image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drag_and_drop_cinemachine.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/conditional_enemy.gif" title="pending image" class="img-fluid rounded z-depth-1" %}
     </div>    
 </div>
 <div class="caption">
-    Left - "Advanced wallet". Middle - "Advanced timer". Right - "Conditinal enemy destroying"
+    Left - "Event-based wallet". Middle - "Event-based decoupled timer". Right - "Conditinal enemy destroying"
 </div>
 
-**Navigation and advanced VFX**<br>
+**AI pathfinding, async operations and technical art**<br>
+* **AI and navigation** developed custom AI agents utilizing NavMesh traversal, off-mesh links, and physics-driven agent movement.<br>
+* **Performance and async** optimized runtime performance using coroutines and asynchronous programming for non-blocking operations.<br>
+* **Technical art** created dynamic visual effects via Shader Graph (vertex manipulation, Fresnel effects) and managed complex audio via Audio Mixer.<br>
+* **Animation** implemented advanced humanoid animation systems involving retargeting, blend trees, and layered state management.<br>
 
-* AI-Navigation (NavMesh), Navmesh links traversal, custom NavMesh agent physics.
-* Async programming, coroutines and yield instructions. Sounds, effects, audio mixer. 
-* Humanoid animations, retargeting, animation layers, blend trees, animation events
-* Shader graph: water waves simulation, gradient, dissolving, pulse (Fresnel effect + vertices scale).
+Key implementation:  
+<a href="https://github.com/alexander-kurakin/PointAndClick_improved_new/tree/master/Assets/_Develop">Tactical NavMesh Agent</a>
+<div class="caption"> 
+    A full implementation of NavMesh agent handling traversal, off-mesh links (jumping), custom shader for visual feedback, and layered humanoid animations.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,10 +54,16 @@ category: Current / Future
     Left - "Shadergraph for pulse effect". Right - "NavMesh guy and absolutely normal mines".
 </div>
 
-**Advanced unity systems**<br>
+**Design patterns and gameplay engineering**<br>
+* **Architectural patterns** applied MVC (Model-View-Controller) and Facade patterns to structure complex gameplay systems and abstract subsystem complexity.<br>
+* **Math and physics** utilized vector mathematics (Dot/Cross products) and interpolation for precise gameplay mechanics and raycast-based spatial queries.<br>
+* **Camera systems** engineered procedural camera behaviors and cutscenes using Cinemachine and code-driven constraints.<br>
 
-* Raycast, gizmos, physical layers, interpolation, scalar math, vector product
-* Cinemachine, types of physical movement. Facade pattern. MVC.
+Key implementation:  
+<a href="https://github.com/alexander-kurakin/RaycastDragAndDropDemo/tree/main/Assets/_Scripts">Raycast Interaction System</a>
+<div class="caption"> 
+    A physics-based drag-and-drop controller utilizing raycasting, interface-based interaction, and vector interpolation for smooth object handling.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -68,12 +81,16 @@ category: Current / Future
     Left - "Boat on the wind". Right - "Raycast drag and drop".
 </div>
 
-**Polymorphism and inheritance**<br>
+**Scalable Object-Oriented architecture**<br>
+* **OOD principles** constructed modular and scalable codebases using SOLID principles, focusing on Composition over Inheritance and Interface segregation.<br>
+* **Design patterns** implemented the Strategy pattern to manage interchangeable behaviors and decoupled entity spawning systems.<br>
+* **Code quality** enforced strict coding standards (DRY, KISS, YAGNI) and type safety using Generics, Enums, and encapsulation strategies.<br>
 
-* OOP principles, inheritance, prefabs, spawners
-* Abstract and virtual classes, polymorphysm. Structs, static, readonly, enum, ref and out modifiers
-* Interfaces, composition, Strategy pattern. 
-* Basic UI components, code style and coding principles DRY, KISS, YAGNI
+Key implementation:  
+<a href="https://github.com/alexander-kurakin/AbstractItemUseDemo/tree/main/Assets/_Scripts">Modular Ability System</a> and <a href="https://github.com/alexander-kurakin/EnemyBehaviourDemo/tree/main/Assets/_Scripts">Strategy Pattern AI</a>
+<div class="caption"> 
+    Demonstrates abstract item/ability system and an Interface-based enemy behavior system.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -88,12 +105,16 @@ category: Current / Future
 </div>
 
 
-**Unity fundamentals and prototyping**<br>
+**Core engine mechanics and physics implementation**<br>
+* **Physics and math** applied linear algebra (Quaternions, Vectors) for custom character controllers and physics-based rigid body interactions.<br>
+* **Scene architecture** managed efficient scene hierarchies, asset integration (FBX/Materials), and version control workflows for rapid prototyping.<br>
+* **Input systems** developed responsive input handling systems for precise player control and immediate feedback.<br>
 
-* Scene composition, materials, textures, FBX models, basic animations, particle effects, trails.
-* Input handling, physics-based movement, score.
-* Vector math, character-controller movement, Quaternions and rotation.
-* Verson control, physics, colliders, rigidbody.
+Key implementation:  
+<a href="https://gist.github.com/alexander-kurakin/9dcfb72a7207306596fd96ce9bb5cded">Math-Driven Target Tracking</a> and <a href="https://github.com/alexander-kurakin/PhysicalBallPrototype/blob/main/Assets/_Scripts/Ball.cs">Physics Controllers</a>
+<div class="caption"> 
+    Code examples focusing on vector math for AI traversal, distance calculations, and RigidBody physics.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -120,10 +141,12 @@ category: Current / Future
 </div>
 
 
-**C# Programming Foundations**<br>
-Terminal-based projects focused on core programming logic, state management, and system design without engine support.
+**C# data structures and logic foundations**<br>
+* **System design** engineered pure C# applications focusing on state management and logic flow without engine dependencies.<br>
+* **Data structures** utilized optimized collections (Dictionaries, Stacks, Queues) for efficient data handling and memory management.<br>
+* **Defensive programming** implemented robust error handling and data security through encapsulation, access modifiers, and constructor injection.<br>
 
-* Types, operations, console, conditionals, loops, arrays, nesting
-* Methods, overloading, List, Queue, Dictionary, Stack, 
-* Classes, fields, properties, constructors, access modificators, data security
-* State-driven systems (wallet, health, turn-based attacks, gameplay). Defensive programming
+Key implementation: <a href="https://gist.github.com/alexander-kurakin/83e9cc50a8fc5e0e079ef30399412478">Terminal RPG Architecture</a>
+<div class="caption">
+    A pure C# boss-fight simulation demonstrating inventory logic (Wallet), state management, and class hierarchy without engine overhead.
+</div>

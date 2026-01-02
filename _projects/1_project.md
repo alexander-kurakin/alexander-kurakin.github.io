@@ -1,15 +1,24 @@
 ---
 layout: page
-title: Archero-clone Project
-description: Early 2026.<br>Final project for the advanced C# and architecture course. Skills, enemies, progression, and systemic combat to be included.
+title: Action roguelike prototype (Archero-inspired)
+description: Early 2026.<br>Action roguelike prototype focused on systemic combat, modular skills, and scalable progression systems.
 img: assets/img/WIP.png
 importance: 1
 category: Current / Future
 related_publications: false
 ---
 
+This project serves as a capstone for my advanced C# and architecture studies; it is approached as an independent engineering project.
 
-Placeholder images (not actual art):
+**Design Focus**<br>
+* **Gameplay systems** skill system with composable effects, enemy behavior composition, data-driven progression, and spawners.<br>
+* **Architecture** decoupled core and meta gameplay systems, explicit initialization, persistent player state.<br>
+* **Player experience** responsive controls, readable combat, clear progression and rewards.<br>
+* **UI and UX** modular UI architecture (menu, upgrades, settings).<br>
+* **Audio and visuals:** SFX/VFX integration and animation tuning to reinforce the gameplay feedback.<br>
+* **Performance:** optimization targeting mobile platform
+
+Placeholder images (not final art):
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/archero_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -22,13 +31,12 @@ Placeholder images (not actual art):
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left - skills progression. Middle - Waves system. Right - boss fight.
 </div>
 
-I will work on the following:
+**Design Constraints**<br>
+* Adding new enemies or skills must not require changes to existing systems logic.
+* Readable and maintainable code.
+* Must not rely on the script execution order.
 
-* Systems: skills, enemies composition, spawners, core and meta gameplay, initialization, currency, data persistence
-* UI: Main menu, progression shop, settings, responsive 
-* Setting up SFX and VFX, animation tweaking
-* Level design and configuration 
-* Optimizations for mobile devices
+The project will be further documented through short write-ups describing decisions, tradeoffs, and refactoring outcomes.
