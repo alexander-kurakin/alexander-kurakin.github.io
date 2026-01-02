@@ -39,9 +39,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-archero-clone-project",
-          title: 'Archero-clone Project',
-          description: "Early 2026.Final project for the advanced C# and architecture course. Skills, enemies, progression, and systemic combat to be included.",
+          section: "News",},{id: "projects-action-roguelike-prototype-archero-inspired",
+          title: 'Action roguelike prototype (Archero-inspired)',
+          description: "Early 2026.Action roguelike prototype focused on systemic combat, modular skills, and scalable progression systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-gameplay-systems-amp-architecture",
