@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -44,8 +44,8 @@ ninja.data = [{
           description: "Early 2026.Action roguelike prototype focused on systemic combat, modular skills, and scalable progression systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-gameplay-systems-amp-architecture",
-          title: 'Gameplay Systems &amp;amp; Architecture',
+            },},{id: "projects-gameplay-systems-and-architecture",
+          title: 'Gameplay systems and architecture',
           description: "2025-mid 2026.A series of progressively more complex gameplay systems focused on scalable architecture, decoupling, and practical implementation of design patterns.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
@@ -55,35 +55,25 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-applied-prototypes-and-tools",
-          title: 'Applied prototypes and Tools',
-          description: "2019-2024Original Unity prototypes and tools focused on interaction, UX, asset integration, and small gameplay loops.",
+          title: 'Applied prototypes and tools',
+          description: "2019-2024Original Unity prototypes and tools with focus on complex middleware integration and original UX experiments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-structured-learning-amp-engine-mastery",
-          title: 'Structured Learning &amp;amp; Engine Mastery',
-          description: "2018–2022Structured learning through faithful reproduction of classic mechanics and gameplay loops.",
+            },},{id: "projects-structured-learning-and-engine-mastery",
+          title: 'Structured learning and engine mastery',
+          description: "2018–2022Deconstructing industry-standard architectures, mastering Unity physics/UI, and reproducing classic game loops",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-5yearsapp2d",
-          title: '5yearsApp2D',
-          description: "2018A mobile-friendly reflective diary app. Long-term personal retrospection through the 5 year intervals.",
+            },},{id: "projects-commercial-mobile-and-full-stack-development",
+          title: 'Commercial mobile and full-stack development',
+          description: "2016-2018Mobile application lifecycle, backend integration, and performance optimization for limited-resource devices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
-            },},{id: "projects-parking-master-low-poly",
-          title: 'Parking Master Low-Poly',
-          description: "2016-2018A casual low-poly clicker game focused on timing and spatial awarenes",
+            },},{id: "projects-origins-and-engineering-foundations",
+          title: 'Origins and engineering foundations',
+          description: "2001–2015A 15-year journey transforming early passion into engineering discipline. From shipping complete arcade games in the early 2000s to mastering algorithms and unit testing during formal Computer Science studies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project.html";
-            },},{id: "projects-merlock",
-          title: 'Merlock',
-          description: "2004-2006A narrative-driven 2D platformer combining traversal challenges with environmental storytelling.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-cpt-jones",
-          title: 'Cpt. Jones',
-          description: "2001An early 2D platformer game focused on classic arcade mechanics and linear level progression.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
