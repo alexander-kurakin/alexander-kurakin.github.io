@@ -1,200 +1,253 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Alexander Kurakin",
+    "label": "Game Systems Engineer | Principal Software Engineer",
+    "image": "/assets/img/prof_pic.jpg",
+    "email": "kurakin.alexander.a@gmail.com",
+    "phone": "",
+    "url": "https://github.com/alexander-kurakin",
+    "summary": "Principal Software Engineer with over a decade of professional experience in high-reliability systems, translating enterprise engineering into professional game development. Expert in C# architecture, Unity middleware integration, and scalable gameplay systems.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "2603",
+      "city": "Canberra",
+      "countryCode": "AU",
+      "region": "ACT"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "alexander-kurakin",
+        "url": "https://github.com/alexander-kurakin"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "alexander-kurakin",
+        "url": "https://linkedin.com/in/kurakinaa"
       }
     ]
   },
   "work": [
+{
+      "name": "Oracle (NetSuite)",
+      "position": "Principal Cloud Database Engineer",
+      "startDate": "2020-04-01",
+      "endDate": "",
+      "summary": "Leveraging high-level engineering expertise to drive reliability, performance, and architectural standards across distributed systems.",
+      "highlights": [
+        "Performance optimization: expertly diagnosed and resolved bottlenecks in high-load systems using advanced tracing. Applied rigorous optimization strategies to legacy codebases, achieving performance parity across platforms.",
+        "Tooling and automation: led the development of internal diagnostic tools and automated replay frameworks to stabilize legacy pipelines, significantly reducing debugging time for the wider engineering team.",
+        "Engineering leadership: mentored senior engineers and directed cross-functional initiatives. Championed strict version control (Perforce/Git) and defensive programming standards."
+      ]
+    },
+{
+      "name": "Integro technologies / Seertech Solutions",
+      "position": "Lead Technical Expert & Developer",
+      "startDate": "2016-04-01",
+      "endDate": "2020-04-01",
+      "summary": "Full-stack development involving system design, legacy modernization, and cross-stack integration.",
+      "highlights": [
+        "Systems architecture: led the modernization of critical legacy modules for major enterprise clients, enforcing separation of concerns and improving system stability.",
+        "Cross-language integration: engineered complex data pipelines involving JSON processing and RESTful APIs. Debugged C# and Java interoperability issues to ensure seamless data flow.",
+        "Technical management: promoted to Team Lead within 6 months to oversee project delivery, conduct technical interviews, and define architectural standards."
+      ]
+    },    
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Independent Developer",
+      "position": "Game Systems Engineer",
+      "url": "",
+      "startDate": "2016-01-01",
+      "endDate": "",
+      "summary": "Continuous development of commercial mobile titles, technical demos, and complex gameplay systems.",
+      "highlights": [
+        "Shipped 'Parking Master' to Google Play Store, managing full lifecycle from development to iterative updates.",
+        "Developed custom tools for audio professionals (CamelotOverlay) and middleware integration workflows.",
+        "Engineered separate R&D projects for NavMesh AI, Inventory Systems, and event-driven logic."
+      ]
+    },
+    {
+      "name": "Independent",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2016-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Engineered '5yearsApp2D', a cross-platform Unity application with a .NET/NoSQL backend.",
+      "highlights": [
+        "Client-server architecture",
+        "Real-time data persistence",
+        "Cross-platform UI/UX design"
+      ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Moscow Aviation Institute (National Research University)",
+      "location": "",
+      "url": "",
+      "area": "Information systems and technologies",
+      "studyType": "Master's degree",
+      "startDate": "2007-01-01",
+      "endDate": "2015-01-01",
+      "score": "",
+      "courses": [
+        "Structured programming (Delphi/Object Pascal)",
+        "Database architecture",
+        "Algorithms & data structures",
+        "Systems engineering"
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  "awards": [],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Game Kit Controller (GKC) Integration documentation",
+      "publisher": "Community contribution",
+      "releaseDate": "2025-04-01",
+      "url": "https://discord.com/channels/504429042825429023/705709404267347998/1365292645689069628",
+      "summary": "Collaborated with the GKC lead developer to diagnose critical configuration steps and authored the official integration workflow update for the wider community."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Languages and core",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C# (Expert)",
+        "Python",
+        "SQL",
+        "PL/SQL",
+        "Delphi/Object Pascal",
+        "Java"
+      ]
+    },
+    {
+      "name": "Unity Engine",
+      "level": "Advanced",
+      "icon": "fa-brands fa-unity",
+      "keywords": [
+        "Physics",
+        "AI navigation",
+        "Animation (Humanoid/Blend Trees/Layers/IK/Retargeting)",
+        "UI prototyping",
+        "Cinemachine and Timeline"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "level": "Advanced",
+      "icon": "fa-solid fa-sitemap",
+      "keywords": [
+        "Event-driven architecture",
+        "OOP / MVC",
+        "Asynchronous programming",
+        "Facade / Strategy / Open/close patterns"
+      ]
+    },
+    {
+      "name": "Tools and DevOps",
+      "level": "Proficient",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": [
+        "Git / SVN / Perforce / Teamcity / Nexus",
+        "Unity Profiler / ADB logcat",
+        "Visual Studio",
+        "ElasticSearch / OpenSearch / Prometheus / Graphana"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Native",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Russian",
+      "fluency": "Native",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Game Design",
+      "icon": "fa-solid fa-gamepad",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Systemic gameplay",
+        "Emergent narratives",
+        "Clean code",
+        "Tool development"
+      ]
+    },
+    {
+      "name": "Music",
+      "icon": "fa-solid fa-music",
+      "keywords": [
+        "Proud owner of 5 different musical instruments",
+        "Proficient Ableton Live user",
+        "Playing by ear and experimenting for fun"
+      ]
+    },
+    {
+      "name": "Videogames",
+      "icon": "fa-solid fa-gamepad",
+      "keywords": [
+        "Lifelong passion from 8bit and IBM era",
+        "RPG as the favourite genre",
+        "Backlog of ~150 titles"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Digital Hoarder",
+      "summary": "Flagship systemic 3D action-adventure game focusing on exploration and non-violent problem solving.",
+      "highlights": [
+        "Architected a modular codebase allowing seamless addition of mechanics without regression.",
+        "Engineered robust third-person traversal, puzzle systems, and world-state driven quest engines.",
+        "Developed a dedicated 'Test room' environment for regression testing."
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "url": "/projects/3_project.html"
+    },
+    {
+      "name": "Action roguelike prototype",
+      "summary": "Technical capstone project inspired by Archero, focusing on mobile optimization and advanced C# patterns.",
+      "highlights": [
+        "Implementing Strategy and Open/Closed patterns for interchangeable enemy behaviors.",
+        "Optimizing for mobile platforms.",
+        "Designing core and meta gameplay according to genre specifics."
+      ],
+      "startDate": "2026-02-01",
+      "endDate": "2026-04-01",
+      "url": "/projects/1_project.html"
+    },
+    {
+      "name": "Gameplay systems R&D",
+      "summary": "A suite of decoupled systems focusing on clean code, architecture, and reusability.",
+      "highlights": [
+        "Designed communication layers using C# events/delegates to remove dependencies.",
+        "Created tactical AI agents utilizing NavMesh traversal and physics-driven movement.",
+        "Independently designed and implemented gameplay loops based on various conditions."
+      ],
+      "startDate": "2025-10-01",
+      "endDate": "2026-04-01",
+      "url": "/projects/2_project.html"
+    },
+    {
+      "name": "Tooling and middleware",
+      "summary": "Custom C# tools and visual utilities for audio professionals and middleware integration.",
+      "highlights": [
+        "Designed a visual utility for audio professionals visualizing harmonic compatibility (extended Circle of Fifths).",
+        "Orchestrated interoperability of complex middleware (GKC, Malbers, RCCP) and authored documentation."
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "2024-12-31",
+      "url": ""
     }
   ]
 }

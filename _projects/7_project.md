@@ -1,11 +1,28 @@
 ---
 layout: page
-title: Parking Master Low-Poly
-description: 2016-2018<br>A casual low-poly clicker game focused on timing and spatial awarenes
+title: Origins and engineering foundations 
+description: 2001–2015<br>A 15-year journey transforming early passion into engineering discipline. From shipping complete arcade games in the early 2000s to mastering algorithms and unit testing during formal Computer Science studies.
 img: assets/img/WIP.png
 importance: 2
-category: Mid career
+category: Origins and early engineering
 related_publications: false
 ---
 
-**WIP / to be populated soon**
+**Academic engineering and algorithms (2007–2015)**<br>
+Formal studies in Engineered Systems, Information Technology, and Database Architecture.
+
+* **Systems engineering** focused on structured programming (Delphi/Object Pascal) and database fundamentals, laying the groundwork for future Enterprise-level roles.<br>
+* **Algorithmic R&D** developed a custom Snake implementation in Python/Pascal, utilizing unit tests and state-machine logic to validate game rules.
+
+**Merlock (2005–2006)**<br>
+A narrative-driven 2D platformer pushing the limits of early Game Maker scripting.
+
+* **Scripting logic (GML)** implemented custom scripted events for environmental storytelling, including conditional video breaks (cinematics) triggered by gameplay conditions.
+* **System design** engineered complex level elements including disappearing platforms, "dead zones," and a custom dialogue system to drive the lore.
+
+**Cpt. Jones (2001)**<br>
+My entry point into game development - a complete 8-level arcade project.
+
+* **Core systems** implemented foundational gameplay systems including Data Persistence (Save/Load functionality), projectile physics, and objective tracking (hostage rescue).
+* **NPC AI** programmed multiple enemy types with distinct behaviors (Flying vs. Walking) using Game Maker Language.
+* **Scope management** successfully designed and shipped 8 distinct levels with linear progression, demonstrating an early ability to manage project scope and deliver a finished product.

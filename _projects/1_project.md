@@ -3,8 +3,8 @@ layout: page
 title: Action roguelike prototype (Archero-inspired)
 description: Early 2026.<br>Action roguelike prototype focused on systemic combat, modular skills, and scalable progression systems.
 img: assets/img/WIP.png
-importance: 1
-category: Current / Future
+importance: 2
+category: Systems and architecture
 related_publications: false
 ---
 

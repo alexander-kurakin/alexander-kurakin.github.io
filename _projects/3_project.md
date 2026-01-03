@@ -3,8 +3,8 @@ layout: page
 title: Digital Hoarder
 description: 2024-Ongoing.<br>Exploration-focused 3d action adventure
 img: assets/img/digital_hoarder_preview.png
-importance: 3
-category: Current / Future
+importance: 1
+category: Systems and architecture
 ---
 A long-running flagship Unity project used to explore gameplay systems, architecture, and systemic design. 
 Digital Hoarder evolves alongside engine research and technical experimentation.

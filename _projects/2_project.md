@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Gameplay Systems & Architecture
+title: Gameplay systems and architecture
 description: 2025-mid 2026.<br>A series of progressively more complex gameplay systems focused on scalable architecture, decoupling, and practical implementation of design patterns.
 img: assets/img/custom_image.png
-importance: 2
-category: Current / Future
+importance: 3
+category: Systems and architecture
 ---
 
 **Event-driven architecture and decoupled systems**<br>

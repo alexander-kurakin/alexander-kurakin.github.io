@@ -5,7 +5,7 @@ permalink: /projects/
 description: A glance into my projects
 nav: true
 nav_order: 1
-display_categories: [Current / Future, Practical R&D, Mid career, Foundations]
+display_categories: [Systems and architecture, Technical R&D, Mobile and full-stack, Origins and early engineering]
 horizontal: true
 ---
 
