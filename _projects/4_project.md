@@ -2,7 +2,7 @@
 layout: page
 title: Applied prototypes and tools 
 description: 2019-2024<br>Original Unity prototypes and tools with focus on complex middleware integration and original UX experiments.
-img: assets/img/WIP.png
+img: assets/img/rccp.png
 importance: 1
 category: Technical R&D
 ---
@@ -12,6 +12,17 @@ category: Technical R&D
 * **Vendor collaboration** collaborated directly with the Game Kit Controller (GKC) lead developer to diagnose and resolve critical integration bugs between character controller and RCCP.
 * **Technical documentation** authored the official integration workflow for the GKC documentation (FAQ), contributing screenshots and technical steps now used by the wider community.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+            <source src="{{ '/assets/img/rccp.mp4' | relative_url }}" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="caption">
+    RCCP and GKC mashup
+</div>
+
 **Unity Tool Development**<br>
 * **CamelotOverlay** designed a visual C# utility for audio professionals, visualizing harmonic compatibility (extended Circle of Fifths) to assist DJs with musically consonant transitions.<br>
 * **QR Code ecosystem** engineered a client-side utility for dynamic QR code generation and scanning, implementing REST API calls for backend link management.<br>
@@ -19,3 +30,19 @@ category: Technical R&D
 **Original gameplay R&D**<br>
 * **MushroomForest** a 3D action-adventure vertical slice featuring hand-crafted terrain, a casual scoring system, audio feedback and ambient music, and a custom character controller (Fox) with collection mechanics.<br>
 * **SwordCube** a minimalist prototype focusing on tight input response, "game juice" (feedback), and optimizing the core gameplay loop for primitive shapes.<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+            <source src="{{ '/assets/img/mushroom_fox.mp4' | relative_url }}" type="video/mp4">
+        </video>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+            <source src="{{ '/assets/img/sword_cube.mp4' | relative_url }}" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Left - "Mushroom Forest". Right - "SwordCube".
+</div>
