@@ -64,8 +64,8 @@ ninja.data = [{
           description: "2018–2022Deconstructing industry-standard architectures, mastering Unity physics/UI, and reproducing classic game loops",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-commercial-mobile-and-full-stack-development",
-          title: 'Commercial mobile and full-stack development',
+            },},{id: "projects-mobile-and-full-stack-development",
+          title: 'Mobile and full-stack development',
           description: "2016-2018Mobile application lifecycle, backend integration, and performance optimization for limited-resource devices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
