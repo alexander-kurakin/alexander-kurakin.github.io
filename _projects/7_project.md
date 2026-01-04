@@ -2,7 +2,7 @@
 layout: page
 title: Origins and engineering foundations 
 description: 2001–2015<br>A 15-year journey transforming early passion into engineering discipline. From shipping complete arcade games in the early 2000s to mastering algorithms and unit testing during formal Computer Science studies.
-img: assets/img/WIP.png
+img: assets/img/cpt_jones_bg.png
 importance: 2
 category: Origins and early engineering
 related_publications: false
@@ -13,6 +13,20 @@ Formal studies in Engineered Systems, Information Technology, and Database Archi
 
 * **Systems engineering** focused on structured programming (Delphi/Object Pascal) and database fundamentals, laying the groundwork for future Enterprise-level roles.<br>
 * **Algorithmic R&D** developed a custom Snake implementation in Python/Pascal, utilizing unit tests and state-machine logic to validate game rules.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video autoplay loop muted playsinline style="width: 100%; height: auto;">
+            <source src="{{ '/assets/img/merlock_conv2.mp4' | relative_url }}" type="video/mp4">
+        </video>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cpt_jones.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left - "Merlock". Right - "Cpt. Jones".
+</div>
 
 **Merlock (2005–2006)**<br>
 A narrative-driven 2D platformer pushing the limits of early Game Maker scripting.
