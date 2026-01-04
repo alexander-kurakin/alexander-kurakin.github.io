@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Commercial mobile and full-stack development
+title: Mobile and full-stack development
 description: 2016-2018<br>Mobile application lifecycle, backend integration, and performance optimization for limited-resource devices.
 img: assets/img/WIP.png
 importance: 1
 category: Mobile and full-stack
 ---
 
-**Parking Master: Low-Poly (released mobile title)**<br>
+**Parking Master: Low-Poly (mobile title - previously on Google Play Store)**<br>
 * **Mobile architecture** designed and shipped a casual arcade game, managing the full lifecycle from gameplay implementation to Google Play Store deployment.<br>
 * **Performance optimization** utilized Unity Profiler and ADB logcat to diagnose memory leaks and optimize draw calls for low-end Android devices.<br>
 * **Platform integration** implemented Google Play Games Services (Leaderboards/Achievements) and handled mobile-specific constraints (touch input layers, resolution scaling).<br>
